@@ -33,6 +33,7 @@ namespace SimpleFeedReader.Services
 
                     while (await feedReader.Read())
                     {
+
                         switch (feedReader.ElementType)
                         {
                             // RSS Item
