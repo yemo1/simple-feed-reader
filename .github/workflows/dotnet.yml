@@ -7,7 +7,7 @@ on:
     branches: [ main ]
     
 env: 
-  app-name: feedreader26593
+  app-name: feedreader26593-staging
   rg-name: AzureTutorial
 
 jobs:
